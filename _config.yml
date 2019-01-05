@@ -14,19 +14,41 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: David Doerner
-email: mymail@gmail.com
+tagline: 'M.Sc. Student Engineering Cybernetics'
 description: >- # this means to ignore newlines until "baseurl:"
-    About
+    David Doerner, M.Sc. student in Engineering Cybernetics
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: DoernerD
+
+# About/contact
+author:
+    name: David Doerner
+    email: mymail@gmail.com
+    github_username: DoernerD
 
 # Build settings
 sass:
     sass_dir: _sass
+
+# Directory structure
 include: ['_pages']
+
+# Permalinks
+
+# Color scheme. Options: red, orange, magenta, cyan, blue, brown
+color-scheme:
+
+permalink: pretty
+permalink: /:title/
+
+# Set encoding to UTF-8
+encoding: utf-8
+
+# Markdown specs
 kramdown:
     input: GFM
+
+theme: "ed."
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
