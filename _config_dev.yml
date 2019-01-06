@@ -18,7 +18,7 @@ tagline: 'M.Sc. Student Engineering Cybernetics'
 description: >- # this means to ignore newlines until "baseurl:"
     David Doerner, M.Sc. student in Engineering Cybernetics
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://doernerd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 
 # About/contact
 author:
