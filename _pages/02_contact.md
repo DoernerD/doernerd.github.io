@@ -4,5 +4,5 @@ title: Contact
 permalink: /contact/
 ---
 
-
-GitHub: [DoernerD](https://github.com/DoernerD).
+E-mail: david \_at\_ hfg.sc.e.titech.ac.jp <br>
+GitHub: [DoernerD](https://github.com/DoernerD)
