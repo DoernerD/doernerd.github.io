@@ -1,8 +1,37 @@
 ---
 layout: default
-tagline: M.Sc. Student Engineering Cybernetics
+tagline: Engineering Cybernetics, M.Sc.
 ---
 
+  {% for p in site.pages%}
+  {% if p.title == 'Short Intro' %}
+  {{p.content}}
+  {% endif %}
+  {% endfor %}
+
+<!--
   <h2>Welcome</h2>
 
-  Hi, I'm David. I study Engineering Cybernetics (M.Sc.) and currently do a research exchange at the Tokyo Institute of Technology where I'm with Prof. Fujita and Prof. Yamauchi. If I'm not working on Human-Swarm interaction, I enjoy cooking, a good cup of coffee, and learning Japanese.
+  Hi, I'm David. I study Engineering Cybernetics (M.Sc.) and currently do a
+  research exchange at the Tokyo Institute of Technology where I'm with Prof.
+  Fujita and Prof. Yamauchi. If I'm not working on Human-Swarm interaction, I
+  enjoy cooking, a good cup of coffee, and learning Japanese.
+-->
+
+  <!--
+  {% include_relative test/01_about.md %}
+  -->
+<!--
+  {% for p in site.pages%}
+  {% if p.title == 'About' %}
+  {{p.content}}
+  {% endif %}
+  {% endfor %}
+-->
+
+<h2>Contact</h2>
+  {% for p in site.pages%}
+  {% if p.title == 'Contact' %}
+  {{p.content}}
+  {% endif %}
+  {% endfor %}
