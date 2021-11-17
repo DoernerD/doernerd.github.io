@@ -27,7 +27,7 @@ techniques.
 
 ## Education
 
-- 2020 - now: PhD Student and Research assistant at the Institute for System
+- 2020 - 2021: PhD Student and Research assistant at the Institute for System
   Dynamics (ISYS), University of Stuttgart
 - 2018 - 2019: Research Exchange Student at Fujita Laboratory, Tokyo Institute of Technology
 - 2017 - 2019: M.Sc. Engineering Cybernetics, University of Stuttgart
@@ -45,8 +45,8 @@ techniques.
 
 ## Teaching
 
-- 2020 - now: Real-time Signal Processing at ISYS
-- 2020 - now: Lab course *Hydraulic Excavator* at ISYS
+- 2020 - 2021: Real-time Signal Processing at ISYS
+- 2020 - 2021: Lab course *Hydraulic Excavator* at ISYS
 - 2018: Teaching Assistant Introduction to System Dynamics during the student
   exercises at ISYS
 - 2016: Teaching Assistant Real-Time Signal Processing during the lab course at
